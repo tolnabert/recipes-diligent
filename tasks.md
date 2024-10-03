@@ -4,7 +4,20 @@
 
 - Figure out which Vite command can build the application to production ready code and try it locally.
 - In which folder the build artifacts are found?
+In the dist folder of the project. The HTML file which serves the js file which is the artifact.
+Common Build Artifacts:
+index.html:
+
+This is the main HTML entry point for your application. Vite injects links to the JavaScript and CSS files that are required for the app to run in production.
+JavaScript Files (Bundled and Minified):
+
+Vite bundles and minifies your React components and other JavaScript files into one or more .js files, typically with hashed filenames to ensure cache-busting. These might look something like:
+
 - How differs the built JS and HTML files from the source files?
+
+
+The built (production) JavaScript and HTML files differ significantly from the source (development) files in a Vite-based React project. The goal of the build process is to optimize the code for performance, reduce file sizes, and make the application ready for deployment.
+
 - You can serve the production files with the `npm run preview` command.
 
 ## 2. Deploy the page to GitHub Pages
